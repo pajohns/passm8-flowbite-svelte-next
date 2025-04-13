@@ -1,5 +1,5 @@
 <script lang="ts" generics="T">
-  import Button from "$lib/buttons/Button.svelte";
+  import Button from "flowbite-svelte-custom/buttons/Button.svelte";
   import clsx from "clsx";
   import { type RadioButtonProps as Props, radioButton } from ".";
 

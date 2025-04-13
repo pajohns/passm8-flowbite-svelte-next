@@ -1,4 +1,4 @@
-import type { AnchorButtonAttributes } from "$lib/types";
+import type { AnchorButtonAttributes } from "flowbite-svelte-custom/types";
 import type { Component, Snippet } from "svelte";
 import type { HTMLAttributes } from "svelte/elements";
 import type { ListgroupItemVariants, ListgroupVariants } from "./theme";

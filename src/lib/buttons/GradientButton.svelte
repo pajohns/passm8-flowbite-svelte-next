@@ -2,7 +2,7 @@
   import Button from "./Button.svelte";
   import { getContext } from "svelte";
   import { type GradientButtonProps as Props, gradientButton } from ".";
-  import type { SizeType } from "$lib/types";
+  import type { SizeType } from "flowbite-svelte-custom/types";
   import clsx from "clsx";
 
   const group: SizeType = getContext("group");

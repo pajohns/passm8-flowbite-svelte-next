@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { CloseButton } from "$lib";
-  import type { ParamsType } from "$lib/types";
+  import { CloseButton } from "flowbite-svelte-custom";
+  import type { ParamsType } from "flowbite-svelte-custom/types";
   import { toast, type ToastProps as Props } from ".";
   import { fly } from "svelte/transition";
 

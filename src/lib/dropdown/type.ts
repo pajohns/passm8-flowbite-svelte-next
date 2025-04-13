@@ -1,7 +1,7 @@
 import type { Snippet } from "svelte";
 import type { ParamsType, TransitionFunc } from "../types";
 import type { HTMLAttributes, HTMLAnchorAttributes } from "svelte/elements";
-import type { PopperProps } from "$lib/utils/Popper.svelte";
+import type { PopperProps } from "flowbite-svelte-custom/utils/Popper.svelte";
 
 interface DropdownProps extends PopperProps {
   simple?: boolean;

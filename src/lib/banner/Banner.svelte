@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CloseButton } from "$lib";
+  import { CloseButton } from "flowbite-svelte-custom";
   import { fade } from "svelte/transition";
   import { type BannerProps as Props, banner } from "./index";
   import type { ParamsType } from "../types";

@@ -2,7 +2,7 @@ import type { Component, Snippet } from "svelte";
 import type { HTMLAttributes, HTMLButtonAttributes, HTMLImgAttributes } from "svelte/elements";
 import type { CarouselVariants } from "./theme";
 import type { TransitionConfig } from "svelte/transition";
-import type { ParamsType } from "$lib/types";
+import type { ParamsType } from "flowbite-svelte-custom/types";
 import type Slide from "./Slide.svelte";
 
 export type State = {

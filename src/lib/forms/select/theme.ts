@@ -1,4 +1,4 @@
-import { dropdown, dropdownItem } from "$lib/dropdown";
+import { dropdown, dropdownItem } from "flowbite-svelte-custom/dropdown";
 import { tv, type VariantProps } from "tailwind-variants";
 
 export type SelectVariants = VariantProps<typeof select>;

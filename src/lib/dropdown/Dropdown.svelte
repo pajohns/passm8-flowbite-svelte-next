@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Popper from "$lib/utils/Popper.svelte";
+  import Popper from "flowbite-svelte-custom/utils/Popper.svelte";
   import { setContext } from "svelte";
   import { writable } from "svelte/store";
   import { type DropdownProps as Props, dropdown } from "./";

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { Indicator } from "$lib";
-  import type { BaseThemes } from "$lib/theme";
+  import { Indicator } from "flowbite-svelte-custom";
+  import type { BaseThemes } from "flowbite-svelte-custom/theme";
   import clsx from "clsx";
   import { getContext } from "svelte";
   import { type AvatarProps as Props, avatar } from ".";

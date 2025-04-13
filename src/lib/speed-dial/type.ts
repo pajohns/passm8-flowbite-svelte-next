@@ -1,5 +1,5 @@
-import type { ButtonProps, GradientButtonProps } from "$lib/buttons";
-import type { PopperProps } from "$lib/utils/Popper.svelte";
+import type { ButtonProps, GradientButtonProps } from "flowbite-svelte-custom/buttons";
+import type { PopperProps } from "flowbite-svelte-custom/utils/Popper.svelte";
 import type { Placement } from "@floating-ui/utils";
 import type { Snippet } from "svelte";
 

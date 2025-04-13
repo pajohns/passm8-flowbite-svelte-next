@@ -1,6 +1,6 @@
 <script lang="ts">
   import { getContext } from "svelte";
-  import type { SizeType } from "$lib/types";
+  import type { SizeType } from "flowbite-svelte-custom/types";
   import { type ButtonProps as Props, button } from ".";
   import clsx from "clsx";
   import { twMerge } from "tailwind-merge";

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { getContext } from "svelte";
   import { type BreadcrumbProps as Props, breadcrumb } from "./index";
-  import type { BaseThemes } from "$lib/theme";
+  import type { BaseThemes } from "flowbite-svelte-custom/theme";
   import clsx from "clsx";
 
   let { children, solid = false, class: className, olClass, ariaLabel = "Breadcrumb", ...restProps }: Props = $props();

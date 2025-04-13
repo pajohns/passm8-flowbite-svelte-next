@@ -3,7 +3,7 @@
   import { writable, type Writable } from "svelte/store";
   import type { ParamsType } from "../types";
   import { slide } from "svelte/transition";
-  import { uiHelpers } from "$lib";
+  import { uiHelpers } from "flowbite-svelte-custom";
   import { type SidebarDropdownWrapperProps as Props, sidebardropdownwrapper } from ".";
   import clsx from "clsx";
 

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { SizeType } from "$lib/types";
+  import type { SizeType } from "flowbite-svelte-custom/types";
   import { getContext } from "svelte";
-  import { CloseButton } from "$lib";
+  import { CloseButton } from "flowbite-svelte-custom";
   import { type InputProps as Props, input, clampSize, type InputValue } from ".";
   import clsx from "clsx";
 

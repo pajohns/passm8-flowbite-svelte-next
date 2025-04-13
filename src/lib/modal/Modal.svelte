@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { ParamsType } from "$lib/types";
-  import CloseButton from "$lib/utils/CloseButton.svelte";
+  import type { ParamsType } from "flowbite-svelte-custom/types";
+  import CloseButton from "flowbite-svelte-custom/utils/CloseButton.svelte";
   import clsx from "clsx";
   import { sineIn } from "svelte/easing";
   import { fade } from "svelte/transition";

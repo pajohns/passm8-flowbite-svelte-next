@@ -1,4 +1,4 @@
-import type { ButtonProps } from "$lib/buttons";
+import type { ButtonProps } from "flowbite-svelte-custom/buttons";
 import type { HTMLInputAttributes } from "svelte/elements";
 
 interface CheckboxButtonProps extends Omit<HTMLInputAttributes, "size"> {

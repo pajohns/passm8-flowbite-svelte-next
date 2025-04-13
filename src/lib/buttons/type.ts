@@ -1,6 +1,6 @@
 import type { HTMLAnchorAttributes, HTMLButtonAttributes } from "svelte/elements";
 import type { ButtonVariants, GradientButtonVariantes } from "./theme";
-import type { AnchorButtonAttributes } from "$lib/types";
+import type { AnchorButtonAttributes } from "flowbite-svelte-custom/types";
 
 type HTMLButtonOrAnchorAttributes = Omit<HTMLButtonAttributes & HTMLAnchorAttributes, "color">;
 

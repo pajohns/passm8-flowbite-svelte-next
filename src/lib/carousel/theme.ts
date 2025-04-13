@@ -1,4 +1,4 @@
-import { select } from "$lib/forms/select";
+import { select } from "flowbite-svelte-custom/forms/select";
 import { tv, type VariantProps } from "tailwind-variants";
 
 export type CarouselVariants = VariantProps<typeof carousel>;

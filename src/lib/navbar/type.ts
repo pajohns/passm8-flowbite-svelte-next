@@ -1,5 +1,5 @@
-import type { ToolbarButtonProps } from "$lib/toolbar";
-import type { AnchorButtonAttributes, TransitionParamTypes } from "$lib/types";
+import type { ToolbarButtonProps } from "flowbite-svelte-custom/toolbar";
+import type { AnchorButtonAttributes, TransitionParamTypes } from "flowbite-svelte-custom/types";
 import type { Component, Snippet } from "svelte";
 import type { HTMLAnchorAttributes, HTMLAttributes } from "svelte/elements";
 

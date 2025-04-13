@@ -1,6 +1,6 @@
 <script lang="ts">
   import { type FileuploadProps as Props, fileupload } from ".";
-  import { CloseButton } from "$lib";
+  import { CloseButton } from "flowbite-svelte-custom";
   import clsx from "clsx";
   let { files = $bindable<FileList | undefined>(), size = "md", clearable = false, class: className, ...restProps }: Props = $props();
   const { base, wrapper, right } = fileupload();

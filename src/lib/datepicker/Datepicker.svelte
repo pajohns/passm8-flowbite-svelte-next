@@ -1,10 +1,10 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { fade } from "svelte/transition";
-  import { Button, clickOutside, type ButtonProps } from "$lib";
+  import { Button, clickOutside, type ButtonProps } from "flowbite-svelte-custom";
   import type { DatepickerProps as Props } from "./type";
   import { datepicker } from "./theme";
-  import ToolbarButton from "$lib/toolbar/ToolbarButton.svelte";
+  import ToolbarButton from "flowbite-svelte-custom/toolbar/ToolbarButton.svelte";
 
   let {
     value = $bindable(),

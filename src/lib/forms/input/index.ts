@@ -1,6 +1,6 @@
 import type { InputProps, InputValue } from "./type";
 import Input from "./Input.svelte";
-import type { SizeType } from "$lib/types";
+import type { SizeType } from "flowbite-svelte-custom/types";
 import { input } from "./theme";
 
 function clampSize(s: SizeType) {

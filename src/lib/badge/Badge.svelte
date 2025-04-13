@@ -1,10 +1,10 @@
 <script lang="ts">
   import { getContext } from "svelte";
   import { type BadgeProps as Props, badge } from "./index";
-  import { CloseButton } from "$lib";
+  import { CloseButton } from "flowbite-svelte-custom";
   import { fade } from "svelte/transition";
-  import type { ParamsType } from "$lib/types";
-  import type { BaseThemes } from "$lib/theme";
+  import type { ParamsType } from "flowbite-svelte-custom/types";
+  import type { BaseThemes } from "flowbite-svelte-custom/theme";
   import clsx from "clsx";
 
   let { children, icon, badgeStatus = $bindable(true), color = "primary", large = false, dismissable = false, class: className, border, href, target, rounded, transition = fade, params, aClass, onclose, ...restProps }: Props = $props();

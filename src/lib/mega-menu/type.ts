@@ -1,4 +1,4 @@
-import type { PopperProps } from "$lib/utils/Popper.svelte";
+import type { PopperProps } from "flowbite-svelte-custom/utils/Popper.svelte";
 import type { Snippet } from "svelte";
 import type { LinkType } from "../types";
 

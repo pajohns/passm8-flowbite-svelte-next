@@ -1,6 +1,6 @@
 <script lang="ts" generics="T">
-  import Badge from "$lib/badge/Badge.svelte";
-  import CloseButton from "$lib/utils/CloseButton.svelte";
+  import Badge from "flowbite-svelte-custom/badge/Badge.svelte";
+  import CloseButton from "flowbite-svelte-custom/utils/CloseButton.svelte";
   import clsx from "clsx";
   import { twMerge } from "tailwind-merge";
   import { multiselect } from "./theme";

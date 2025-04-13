@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from "$lib/buttons/Button.svelte";
-  import Tooltip from "$lib/tooltip/Tooltip.svelte";
+  import Button from "flowbite-svelte-custom/buttons/Button.svelte";
+  import Tooltip from "flowbite-svelte-custom/tooltip/Tooltip.svelte";
   import { getContext } from "svelte";
   import { speed_dial_button } from "./theme";
   import type { SpeedCtxType, SpeedDialButtonProps as Props } from "./type";

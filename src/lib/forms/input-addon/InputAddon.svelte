@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { SizeType } from "$lib/types";
+  import type { SizeType } from "flowbite-svelte-custom/types";
   import { twMerge } from "tailwind-merge";
   import { getContext } from "svelte";
-  import { clampSize } from "$lib";
+  import { clampSize } from "flowbite-svelte-custom";
   import { type InputAddonProps as Props } from ".";
 
   let { children, class: className, size, ...restProps }: Props = $props();

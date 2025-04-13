@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from "$lib/buttons/Button.svelte";
-  import GradientButton from "$lib/buttons/GradientButton.svelte";
+  import Button from "flowbite-svelte-custom/buttons/Button.svelte";
+  import GradientButton from "flowbite-svelte-custom/buttons/GradientButton.svelte";
   import type { SpeedDialTriggerProps as Props } from "./type";
   import type { GradientButtonProps } from "../buttons/type";
 

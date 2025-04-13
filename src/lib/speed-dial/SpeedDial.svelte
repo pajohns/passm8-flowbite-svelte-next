@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Popper from "$lib/utils/Popper.svelte";
+  import Popper from "flowbite-svelte-custom/utils/Popper.svelte";
   import { getSideAxis } from "@floating-ui/utils";
   import clsx from "clsx";
   import { setContext } from "svelte";

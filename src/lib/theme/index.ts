@@ -113,7 +113,7 @@ import {
   tooltip,
   videoPlaceholder,
   widgetPlaceholder
-} from "$lib";
+} from "flowbite-svelte-custom";
 
 export const baseThemes = {
   accordion,

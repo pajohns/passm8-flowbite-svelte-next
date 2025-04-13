@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { ParamsType } from "$lib/types";
+  import type { ParamsType } from "flowbite-svelte-custom/types";
   import { fly } from "svelte/transition";
   import { sineIn } from "svelte/easing";
   import { type DrawerProps as Props, drawer } from ".";

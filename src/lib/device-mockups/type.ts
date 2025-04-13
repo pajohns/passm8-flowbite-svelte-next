@@ -1,6 +1,6 @@
 import type { Snippet } from "svelte";
 import type { HTMLAttributes } from "svelte/elements";
-import type { DeviceVariantType } from "$lib/types";
+import type { DeviceVariantType } from "flowbite-svelte-custom/types";
 
 interface DeviceMockupProps {
   children: Snippet;

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Indicator from "$lib/indicator/Indicator.svelte";
+  import Indicator from "flowbite-svelte-custom/indicator/Indicator.svelte";
   import { getContext } from "svelte";
   import type { Writable } from "svelte/store";
   import { indicators } from "./theme";

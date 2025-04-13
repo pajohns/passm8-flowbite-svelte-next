@@ -2,7 +2,7 @@
   import { setContext, getContext } from "svelte";
   import { writable } from "svelte/store";
   import { type AccordionProps as Props, accordion } from "./";
-  import type { BaseThemes } from "$lib/theme";
+  import type { BaseThemes } from "flowbite-svelte-custom/theme";
   import clsx from "clsx";
 
   let { children, flush, activeClass, inactiveClass, multiple = false, class: className, ...restProps }: Props = $props();

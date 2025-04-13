@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { CloseButton } from "$lib";
-  import type { BaseThemes } from "$lib/theme";
-  import type { ParamsType } from "$lib/types";
+  import { CloseButton } from "flowbite-svelte-custom";
+  import type { BaseThemes } from "flowbite-svelte-custom/theme";
+  import type { ParamsType } from "flowbite-svelte-custom/types";
   import { getContext } from "svelte";
   import { fade } from "svelte/transition";
   import { type AlertProps as Props, alert } from ".";

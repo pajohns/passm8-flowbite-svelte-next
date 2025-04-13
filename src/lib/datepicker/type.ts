@@ -1,4 +1,4 @@
-import type { ButtonProps } from "$lib/buttons";
+import type { ButtonProps } from "flowbite-svelte-custom/buttons";
 import type { HTMLAttributes } from "svelte/elements";
 
 type DateOrRange = Date | { from?: Date; to?: Date };
