@@ -1,9 +1,0 @@
-{
-  "name": "Navbar",
-  "props": [
-    ["children", "any", ""],
-    ["fluid", "any", ""],
-    ["navContainerClass", "any", ""],
-    ["class", "string", ""]
-  ]
-}

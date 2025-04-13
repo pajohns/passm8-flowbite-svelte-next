@@ -1,7 +1,0 @@
-{
-  "name": "TableHeadCell",
-  "props": [
-    ["children", "any", ""],
-    ["class", "string", ""]
-  ]
-}

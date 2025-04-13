@@ -1,8 +1,0 @@
-{
-  "name": "Timeline",
-  "props": [
-    ["children", "any", ""],
-    ["order", "any", "\"default\""],
-    ["class", "string", ""]
-  ]
-}

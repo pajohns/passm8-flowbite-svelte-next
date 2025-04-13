@@ -1,9 +1,0 @@
-{
-  "name": "FooterLink",
-  "props": [
-    ["children", "any", ""],
-    ["liClass", "any", ""],
-    ["aClass", "any", ""],
-    ["href", "any", ""]
-  ]
-}

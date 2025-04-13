@@ -1,7 +1,0 @@
-{
-  "name": "FooterLinkGroup",
-  "props": [
-    ["class", "string", ""],
-    ["children", "any", ""]
-  ]
-}

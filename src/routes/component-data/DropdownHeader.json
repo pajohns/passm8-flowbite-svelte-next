@@ -1,7 +1,0 @@
-{
-  "name": "DropdownHeader",
-  "props": [
-    ["children", "any", ""],
-    ["class", "string", ""]
-  ]
-}

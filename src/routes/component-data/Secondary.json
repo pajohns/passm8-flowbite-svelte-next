@@ -1,7 +1,0 @@
-{
-  "name": "Secondary",
-  "props": [
-    ["children", "any", ""],
-    ["class", "string", ""]
-  ]
-}

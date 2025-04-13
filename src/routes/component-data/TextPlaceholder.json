@@ -1,7 +1,0 @@
-{
-  "name": "TextPlaceholder",
-  "props": [
-    ["size", "any", "\"sm\""],
-    ["class", "string", ""]
-  ]
-}
