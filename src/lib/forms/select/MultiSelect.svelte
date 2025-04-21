@@ -1,14 +1,14 @@
 <script lang="ts" generics="T">
+  import clsx from "clsx";
   import Badge from "flowbite-svelte-custom/badge/Badge.svelte";
   import CloseButton from "flowbite-svelte-custom/utils/CloseButton.svelte";
-  import clsx from "clsx";
   import { twMerge } from "tailwind-merge";
   import { multiselect } from "./theme";
   import type { MultiSelectProps as Props, SelectOptionType } from "./type";
 
   // Consider reusing that component - https://svelecte.vercel.app/
 
-  let { children, items = [], value = [], size = "md", dropdownClass = "", placeholder = "", disabled = false, onchange, class: className, ...restProps }: Props<T> = $props();
+  let { children, items = [], value = $bindable([]), size = "md", dropdownClass = "", placeholder = "", disabled = false, onchange, class: className, ...restProps }: Props<T> = $props();
 
   let selectItems = $derived(items.filter((x) => value.includes(x.value)));
   let show: boolean = $state(false);

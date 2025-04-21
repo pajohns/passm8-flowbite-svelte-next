@@ -1,15 +1,13 @@
 <script lang="ts">
+  import clsx from "clsx";
   import { getContext } from "svelte";
   import { type DropdownItemProps as Props, dropdownItem } from ".";
-  import { tv } from "tailwind-variants";
-  import clsx from "clsx";
 
   let { aClass, children, href, activeClass, liClass, class: className, ...restProps }: Props = $props();
 
   const activeUrlStore = getContext("activeUrl") as { subscribe: (callback: (value: string) => void) => void };
   let sidebarUrl = $state("");
   activeUrlStore.subscribe((value) => {
-    // console.log('value: ', value)
     sidebarUrl = value;
   });
 

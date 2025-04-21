@@ -1,7 +1,6 @@
-import type { Snippet } from "svelte";
-import type { ParamsType, TransitionFunc } from "../types";
-import type { HTMLAttributes, HTMLAnchorAttributes } from "svelte/elements";
 import type { PopperProps } from "flowbite-svelte-custom/utils/Popper.svelte";
+import type { Snippet } from "svelte";
+import type { HTMLAnchorAttributes, HTMLAttributes } from "svelte/elements";
 
 interface DropdownProps extends PopperProps {
   simple?: boolean;
@@ -31,4 +30,5 @@ interface DropdownGroupProps extends HTMLAttributes<HTMLUListElement> {
   children: Snippet;
 }
 
-export { type DropdownProps, type DropdownDividerProps, type DropdownItemProps, type DropdownGroupProps, type DropdownHeaderProps };
+export { type DropdownDividerProps, type DropdownGroupProps, type DropdownHeaderProps, type DropdownItemProps, type DropdownProps };
+

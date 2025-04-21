@@ -10,11 +10,9 @@
 
   let navState = getContext<NavbarState>("navState");
 
-  let { children, activeUrl, ulClass, slideParams = { delay: 250, duration: 500, easing: sineIn }, activeClass, nonActiveClass, class: clasName, ...restProps }: Props = $props();
+  let { children, activeUrl, ulClass, slideParams = { delay: 250, duration: 500, easing: sineIn }, activeClass, nonActiveClass, hidden, class: clasName, ...restProps }: Props = $props();
 
   const activeUrlStore = writable<string>("");
-
-  let hidden: boolean = $derived(navState.hidden ?? true);
 
   let { base, ul, active, nonActive } = $derived(navbar_ul({ hidden }));
 

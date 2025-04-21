@@ -14,7 +14,6 @@
     class?: string;
   } = $props();
 
-  console.log(className);
   const px = (n: number | undefined) => (n ? `${n}px` : "");
 
   // const arrowBordersMap: Record<Side, string> = {

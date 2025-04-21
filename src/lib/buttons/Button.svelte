@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { getContext } from "svelte";
-  import type { SizeType } from "flowbite-svelte-custom/types";
-  import { type ButtonProps as Props, button } from ".";
   import clsx from "clsx";
+  import type { SizeType } from "flowbite-svelte-custom/types";
+  import { getContext } from "svelte";
   import { twMerge } from "tailwind-merge";
+  import { type ButtonProps as Props, button } from ".";
 
   const group: SizeType = getContext("group");
 

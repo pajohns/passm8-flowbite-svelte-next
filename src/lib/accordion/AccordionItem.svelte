@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { twMerge } from "tailwind-merge";
-  import { slide } from "svelte/transition";
   import { getContext } from "svelte";
   import { writable } from "svelte/store";
+  import { slide } from "svelte/transition";
+  import { twMerge } from "tailwind-merge";
 
+  import clsx from "clsx";
+  import type { BaseThemes } from "flowbite-svelte-custom/theme";
   import { type AccordionCtxType, type AccordionItemProps as Props, accordionitem } from ".";
   import type { ParamsType } from "../types";
-  import type { BaseThemes } from "flowbite-svelte-custom/theme";
-  import clsx from "clsx";
 
   let { children, header, arrowup, arrowdown, open = $bindable(false), activeClass, inactiveClass, transitionType = slide, transitionParams, class: className }: Props = $props();
 

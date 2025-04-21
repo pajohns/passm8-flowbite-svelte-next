@@ -1,12 +1,12 @@
 <script lang="ts">
   import { cubicOut } from "svelte/easing";
+  import { Tween } from "svelte/motion";
   import { twMerge } from "tailwind-merge";
-  import { tweened } from "svelte/motion";
   import { type ProgressbarProps as Props, progressbar } from ".";
 
   let { progress = "45", precision = 0, tweenDuration = 400, animate = false, size = "h-2.5", labelInside = false, labelOutside = "", easing = cubicOut, color = "primary", labelInsideClass, oustsideSpanClass, oustsideProgressClass, labeloutsidedivClass, divClass, ...restProps }: Props = $props();
 
-  const _progress = tweened(0, {
+  const _progress = new Tween(0, {
     duration: animate ? tweenDuration : 0,
     easing
   });
@@ -30,11 +30,11 @@
 {/if}
 <div {...restProps} class={twMerge(base({ class: divClass }), size)}>
   {#if labelInside}
-    <div class={twMerge(labelInsideDiv({ class: labelInsideClass }), size)} style="width: {$_progress}%">
-      {$_progress.toFixed(precision)}%
+    <div class={twMerge(labelInsideDiv({ class: labelInsideClass }), size)} style="width: {_progress.current}%">
+      {_progress.current.toFixed(precision)}%
     </div>
   {:else}
-    <div class={twMerge(insideDiv({ class: labelInsideClass }), size)} style="width: {$_progress}%"></div>
+    <div class={twMerge(insideDiv({ class: labelInsideClass }), size)} style="width: {_progress.current}%"></div>
   {/if}
 </div>
 
